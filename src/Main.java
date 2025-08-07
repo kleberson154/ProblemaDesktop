@@ -12,7 +12,7 @@ public class Main {
         Produto produto;
         EstoqueController estoqueController = new EstoqueController();
 
-        System.out.println("Digite o nome do mercado: ");
+        System.out.println("Digite o nome da loja: ");
         String nomeMercado  = scanner.nextLine();
 
         boolean loop = false;

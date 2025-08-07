@@ -8,7 +8,7 @@ public class Produto {
     public Produto(String nome, double preco, int quantidade) {
         this.nome = nome;
         this.preco = preco;
-        this.quantidade = quantidade;
+        this.quantidade = quantidade
     }
 
     public String getNome() {
@@ -24,7 +24,7 @@ public class Produto {
     }
 
     public void setPreco(double preco) {
-        this.preco = preco;
+        this.preco = preco
     }
 
     public int getQuantidade() {
@@ -32,6 +32,6 @@ public class Produto {
     }
 
     public void setQuantidade(int quantidade) {
-        this.quantidade = quantidade;
+        this.quantidade = quantidade
     }
 }

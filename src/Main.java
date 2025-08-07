@@ -15,12 +15,12 @@ public class Main {
         System.out.println("Digite o nome do mercado: ");
         String nomeMercado  = scanner.nextLine();
 
-        boolean loop = true;
+        boolean loop = false;
 
         while (loop){
             System.out.println("Digite o numero da opção desejada:");
-            System.out.println("1 - Cadastrar produto" +
-                               "\n2 - Listar produtos" +
+            System.out.println("1 - Cadastrar produto"
+                               "2 - Listar produtos" +
                                "\n3 - Sair");
             int opcao = scanner.nextInt();
             switch (opcao){
@@ -38,7 +38,7 @@ public class Main {
                     System.out.println("======== Saindo do programa ========");
                     System.out.println("Obrigado por usar o sistema de estoque do " + nomeMercado + "!");
                     loop = false;
-                    break;
+                    break
                 default:
                     System.out.println("Opção inválida. Tente novamente.");
             }

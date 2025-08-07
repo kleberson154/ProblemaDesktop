@@ -1,8 +1,7 @@
-package controller;
+package controller
 
-import model.Produto;
-
-import java.util.List;
+import model.Produto
+import java.io.List;
 
 public class EstoqueController {
     public List<Produto> listarProdutos(List<Produto> estoque) {
